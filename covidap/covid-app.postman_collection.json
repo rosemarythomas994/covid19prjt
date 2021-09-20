@@ -1,0 +1,138 @@
+{
+	"id": "738e1b4b-c6e5-a013-8bfc-3e40acd21453",
+	"name": "covid-app",
+	"description": "",
+	"order": [
+		"10e93275-0dc7-ba50-8f6e-8498509b5538",
+		"ea0fb654-3e53-0937-dc97-f9b523007e7f",
+		"0a8f3fb1-c436-12ea-22e0-5aed1c0ed287",
+		"87a023df-3c0f-dc61-20df-3b8d274758ab"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1631990474309,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0a8f3fb1-c436-12ea-22e0-5aed1c0ed287",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8077/patient/{id}",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1632116695213,
+			"name": "update-patient",
+			"description": "",
+			"collectionId": "738e1b4b-c6e5-a013-8bfc-3e40acd21453",
+			"responses": [],
+			"rawModeData": "{\r\n  \"address\": \"string\",\r\n  \"admissionstatus\": \"string\",\r\n  \"age\": \"string\",\r\n  \"covidstatus\": \"string\",\r\n  \"dob\": \"string\",\r\n  \"gender\": \"string\",\r\n  \"id\": \"string\",\r\n  \"name\": \"string\",\r\n  \"phone\": \"string\"\r\n}"
+		},
+		{
+			"id": "10e93275-0dc7-ba50-8f6e-8498509b5538",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8077/patient",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1632116638841,
+			"name": "add-patient",
+			"description": "",
+			"collectionId": "738e1b4b-c6e5-a013-8bfc-3e40acd21453",
+			"responses": [],
+			"rawModeData": "{\r\n  \"address\": \"string\",\r\n  \"admissionstatus\": \"string\",\r\n  \"age\": \"string\",\r\n  \"covidstatus\": \"string\",\r\n  \"dob\": \"string\",\r\n  \"gender\": \"string\",\r\n  \"id\": \"string\",\r\n  \"name\": \"string\",\r\n  \"phone\": \"string\"\r\n}"
+		},
+		{
+			"id": "87a023df-3c0f-dc61-20df-3b8d274758ab",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8077/patient/{id}",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1632116718386,
+			"name": "delete-patient",
+			"description": "",
+			"collectionId": "738e1b4b-c6e5-a013-8bfc-3e40acd21453",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"rose\",\n\t\"age\": \"20\",\n\t\"address\": \"changanacherry\",\n\t\"dob\": \"20/09/1998\",\n\t\"gender\": \"Female\",\n\t\"phone\": \"+919876543210\",\n\t\"covidstatus\": \"Negative\",\n\t\"admissionstatus\": \"Discharge\"\n}"
+		},
+		{
+			"id": "ea0fb654-3e53-0937-dc97-f9b523007e7f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8077/patient",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1632116630806,
+			"name": "get-patient",
+			"description": "",
+			"collectionId": "738e1b4b-c6e5-a013-8bfc-3e40acd21453",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"rose\",\n\t\"age\": \"20\",\n\t\"address\": \"changanacherry\",\n\t\"dob\": \"20/09/1998\",\n\t\"gender\": \"Female\",\n\t\"phone\": \"+919876543210\",\n\t\"covidstatus\": \"Negative\",\n\t\"admissionstatus\": \"Discharge\"\n}"
+		}
+	]
+}
