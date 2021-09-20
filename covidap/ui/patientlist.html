@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #223b5d;
+    }
+
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: #223b5d;
+    }
+
+    .topnav a.active {
+      background-color: white;
+      color: #223b5d;
+    }
+
+    .topnav .icon {
+      display: none;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td,
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+
+    h2 {
+      color: rgb(39, 39, 126);
+      font-family: Georgia;
+      font-size: 200%;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="./home.html" class="active">Home</a>
+    <a href="./registration.html">Registration</a>
+    <a href="./patientlist.html">Patient List</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <h2>Patient List..</h2>
+  <table>
+    <tr>
+      <th>Patient Name</th>
+      <th>Patient Address</th>
+      <th>Date of Birth</th>
+      <th>Age</th>
+      <th>Gender</th>
+      <th>Phone Number</th>
+      <th>Covid Satus</th>
+      <th>Admission Status</th>
+      <th>Delete/Update </th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><button>Update Status</button><button>Delete</button></td>
+    </tr>
+
+  </table>
+
+
+</body>
+
+</html>
